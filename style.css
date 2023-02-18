@@ -1,0 +1,273 @@
+/* univarsal style */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #E6E5E7;
+
+}
+.main-style{
+    background-color: white;
+    margin: 0px 80px 0px 80px;
+    padding-bottom: 20px;
+}
+.main_btn { 
+    border:1px solid #16a085 ;
+    border-radius: 4px;
+    color: #16a085;
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    width: 117px;
+}
+
+h5 {
+    font-weight: bold;
+    line-height: 25px;
+}
+p{
+    color: #95A5A6;
+    font-weight: 500;
+}
+
+#main_item{
+    max-width:800px;
+    margin: auto;   
+
+}
+/* heading style  */
+.newsletter-heading{
+    color: #1F9D87;
+    text-align: center;   
+}
+
+/* section 1 or hero section  */
+
+#hero_section{
+    background-image: url(./image/banner1.jpg);
+    opacity: 0.9;
+    width: auto;
+    height: 340px;    
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position:center;
+    text-align: center;
+    color: white;
+    padding:50px 10px 30px 10px ;
+   }
+
+   .hero_fresh_txt{
+    font-size: 48px;
+    font-weight: normal;
+   }
+
+   .hero_newsletter_txt{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+   }
+
+   .hero_markating_txt{
+    font-weight:bold ;
+    line-height: 18px;
+    font-size: 18px;
+
+   }
+
+
+   /* section 2 or service section  */
+.service_section{
+    text-align: center;
+    padding-top: 20px;
+}
+.service_section_all{
+    border-right: 1px solid gray;
+    }
+
+.service_section_all:nth-last-child(1){
+    border: none;
+}
+
+/* template or section 3  */
+
+.template_modify{
+    background-color:#ECF0F1;
+    padding: 20px 4px  ;
+}
+
+.template_modify_service h6 {
+ font-size: 15px;
+ line-height: 15px;
+ color:#2c3e50 ;
+ font-weight: bold;
+ padding-top: 25px;
+}
+
+/* section 4 or supported_service area */
+
+.supported_service{
+    text-align: center;
+    padding: 45px 10px;
+}
+
+.supported_btn{
+    margin: 0 auto;
+}
+
+
+.creative_section{
+    background-color: #ECF0F1;
+    padding: 45px 10px;
+}
+
+
+/* section 5 or section_five */
+
+.section_five{
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+
+
+
+
+/* section 6 or section_six */
+.section_six{
+    background-color: #ECF0F1;
+    padding: 50px 25px;
+}
+
+
+
+/* section 7 or section_seven */
+.section_seven{
+    padding: 50px 25px;
+}
+.section_seven_img img{
+    width: 100%;
+}
+
+.section_seven_post {
+    padding-top:45px ;
+}
+/* section 8 or section_eight */
+
+.section_eight{
+    background-color:#ECF0F1 ;
+    padding: 50px 25px;
+}
+
+.section_eight_btn{
+    background-color: white;
+    padding: 30px 30px 30px 40px ;    
+    height: 150px;
+    text-align: center;
+}
+
+.section_eight_btn .btn_purchase{
+    background-color: #16A085;
+    color: white;   
+}
+
+/* section 10 or section_ten */
+
+.section_ten{
+    background-color: #16A085;
+    color: #ffffff;
+    font-weight: bold;
+}
+.section_ten img {
+   width: 35%;
+}
+
+.section_ten ul {
+   list-style-type: none; 
+   display: flex;
+   justify-content: center;
+
+}
+.section_ten ul li a {
+    padding: 15px;
+}
+
+.section_ten ul li a img{
+    width: 19px;
+    
+}
+/* footer area */
+.footer_area{
+    margin: 0px 80px 0px 80px;
+}
+.footer_area p{
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.footer_area p a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width:720px) {
+    .main-style{
+        margin: 0px;
+       padding-bottom: 20px;
+        
+    } 
+    #hero_section{
+        width: auto;
+        height: 430px;    
+        
+       }
+
+       .service_section_all{
+        padding: 0px 70px;
+        border: none;
+    }
+
+    .template_modify_service{
+        padding:0px 30px 40px 30px;
+       
+    }
+    .template_modify_img{
+        width: 100%;
+        height: 150px;
+    }
+    .creative_section_frist_div{
+        padding-bottom: 40px;
+    }
+    .section_five_img img{
+        width: 100%;
+        height: 210px;
+    }
+
+    .section_five_post{
+        padding-top:45px ;
+    }
+    .section_seven_img img{
+        width: 100%;
+        height: 210px;
+    }
+    
+    .section_eight_btn{
+        padding-left: 130px;
+    }
+    .footer_area{
+        margin: 0px;
+    }
+}
